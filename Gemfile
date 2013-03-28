@@ -23,6 +23,8 @@ end
 
 gem 'jquery-rails'
 gem "thin", ">= 1.5.0"
+gem 'rspec-rails'
+gem 'capybara'
 
 gem "mongoid-rspec", ">= 1.7.0", :group => :test
 gem "better_errors", ">= 0.7.2", :group => :development
